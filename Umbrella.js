@@ -3,7 +3,7 @@ constructor(x,y){
     var options = {
         isStatic: true,
     }
-    this.image = loadimage("WalkingFrame/walking_1.png");
+    this.image = loadImage("WalkingFrame/walking_1.png");
     this.umbrella = Bodies.circle(x,y,50,options);
     this.radius = 50;
     World.add(world, this.umbrella)
